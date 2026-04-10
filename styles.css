@@ -363,6 +363,21 @@ footer {
 }
 
 /* Sección estilos de video */
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  border: 2px solid var(--color-primary);
+}
+
 .contact {
   text-align: center;
   padding: 60px 20px;
